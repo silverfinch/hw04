@@ -35,7 +35,7 @@ double distance (struct point a, struct point b)
 
 int main (void)
 {
-    struct triangle t = (struct triangle) { {0, 0.}, {3., 0}, {0., 4.} };
+    struct triangle t = (struct triangle) { {2., 2.}, {-2., 1.}, {0., -3.} };
 
     double a = area (t);
     double p =
